@@ -16,7 +16,6 @@ This repository is a **starter layout for [Claude Code](https://claude.ai/code)*
 | `.claude/output-styles/` | Output tone (e.g. `terse.md` for brief, actionable replies). |
 | `.mcp.json` | MCP server configuration (empty placeholder; add your integrations here). |
 | `settings.local.example.json` | Example for optional local settings; copy to `settings.local.json` (gitignored). |
-| `plugins/vercel/` | Placeholder for Vercel-related plugin or scripts when you wire them up. |
 | `docs/agent-runtime-security.md` | **Vendor-agnostic** LLM agent hardening (risks **【1-1】–【6-1】**) + links to runnable checks. |
 | `scripts/agent-runtime/` | **Executable** `bash` checks: `run-all.sh`, `checks/*.sh`; read **`scripts/agent-runtime/README.md`**. |
 | `Makefile` | `make agent-checks` runs the full script bundle. |
