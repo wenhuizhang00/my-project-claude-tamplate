@@ -1,0 +1,20 @@
+# Local overrides (never commit secrets or machine-specific paths)
+CLAUDE.local.md
+settings.local.json
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Logs and caches
+*.log
+.cache/
+node_modules/
+
+# Local tuning for scripts/agent-runtime
+scripts/agent-runtime/config.env

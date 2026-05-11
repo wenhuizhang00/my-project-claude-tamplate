@@ -1,0 +1,4 @@
+{
+  "_comment": "Project defaults for Claude Code. Use settings.local.json at repo root for local overrides.",
+  "outputStyle": "terse"
+}

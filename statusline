@@ -1,0 +1,15 @@
+# Status line template (CLI / editor integrations)
+
+Optional single-line **context** for terminals that render a footer (see your statusline integration docs).
+
+Suggested fields (machine-local values must stay out of git):
+
+- `branch` — current git branch
+- `dir` — basename of working directory
+- `dirty` — working tree state when relevant
+
+Example (plain text, no secrets):
+
+`main ~/my-project-claude-tamplate clean`
+
+Replace this file's contents with the format expected by your tooling.

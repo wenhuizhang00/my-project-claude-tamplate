@@ -1,0 +1,4 @@
+{
+  "_comment": "Copy to settings.local.json for machine-only overrides (gitignored).",
+  "env": {}
+}
